@@ -31,9 +31,6 @@ dependencies {
 	// Fabric API
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 	}
-	// Mod Menu
-	implementation "com.terraformersmc:modmenu:${project.modmenu_version}"
-}
 
 processResources {
 	def version = project.version
